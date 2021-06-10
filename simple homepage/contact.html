@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Contact us here</h1>
+        </div>
+        <div id="navbar">
+            <a href="./index.html">Startpage</a>
+            <a href="./contact.html">Contact</a>
+        </div><br>
+
+        <div class="container">
+            <form action="contact.php" method="POST">
+                <label>First Name:</label>
+                <input type="text" id="fName" name="firstName" placeholder="Put your firstname here..."><br>
+
+                <label>Last Name:</label>
+                <input type="text" id="lName" name="lastName" placeholder="Put your last name here..."><br>
+
+                <label>Country:</label>
+                <select id="country" name="country">
+                    <option value="new zealand">New Zealand</option>
+                    <option value="australia">Australia</option>
+                    <option value="germany">Germany</option>
+                    <option value="england">England</option>
+                    <option value="usa">USA</option>
+                    <option value="spain">Spain</option>
+                    <option value="italy">Italy</option>
+                    <option value="greece">Greece</option>
+                    <option value="china">China</option>
+                </select><br>
+
+                <label  for="subject">Subject:</label><br>
+                <textarea id="subject" name="subject" placeholder="Your text here..." style="height: 200px;"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>  
+    </body>
+</html>

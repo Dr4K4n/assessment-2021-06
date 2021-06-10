@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+}
+.navbar {
+    background: lightslategrey;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.description {
+    left: 50%;
+    top: 45%;
+    position: absolute;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+.description h1 {
+    color: lightslategrey;
+}
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
