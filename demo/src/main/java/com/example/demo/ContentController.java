@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class ContentController {
 
-    @GetMapping("/content")
-    public String content(@RequestParam(name="content", required=false, defaultValue="Empty") String content, Model model) {
-        model.addAttribute("content", content);
-        return "content";
+    @GetMapping("/contact")
+    public String getContact(Model model) {
+        // this String "contact" will be translated by Spring to "src/main/resources/templates/contact.html"
+        return "contact";
     }
 
 }
